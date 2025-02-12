@@ -7,7 +7,7 @@ amoFn = (method as text, domen as text, login as text, hash as text, limits as n
                 USER_HASH=hash
                 ],
         url = "https://"&domen&".amocrm.ru",
-        limit = if limits = null then 20000 else limits,
+        limit = if limits = null then 21000 else limits,
 
         githubFn = (function as text) =>
             let
